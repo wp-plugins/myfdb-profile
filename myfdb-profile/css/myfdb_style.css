@@ -1,0 +1,184 @@
+div.myfdb_profiles_space {
+  display: inline-block;
+  width: 100%;
+}
+
+#myfdb_profiles_plugin {
+  background: #000;
+  float: left;
+  margin-top: 12px;
+  max-width: 524px;
+}
+
+#myfdb_profiles_plugin a,
+#myfdb_profiles_plugin div,
+#myfdb_profiles_plugin h3,
+#myfdb_profiles_plugin h4,
+#myfdb_profiles_plugin span,
+#myfdb_profiles_plugin li,
+#myfdb_profiles_plugin p{
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div.myfdb_profiles_space {
+  display: inline-block;
+  width: 100%;
+}
+
+#myfdb_profiles_plugin div.myfdb_main_info {
+  padding: 0 5px 10px 5px;
+}
+
+#myfdb_profiles_plugin ul.myfdb_profiles {
+  display: block;
+  clear: both;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#myfdb_profiles_plugin ul.myfdb_profiles li {
+  width: 252px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+#myfdb_profiles_plugin ul.myfdb_profiles li.myfdb_widget_separated {
+  margin: 0 20px 0 0;
+}
+
+#myfdb_profiles_plugin a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#myfdb_profiles_plugin a:hover {
+  color: #FF0097;
+}
+
+#myfdb_profiles_plugin h3 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  font-weight: normal;
+  background: #2f2f2f;
+  line-height: 26px;
+  font-size: 15px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#myfdb_profiles_plugin h3 a {
+  font-family: Helvetica,Arial,sans-serif;
+  line-height: 26px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#myfdb_profiles_plugin h3 span.myfdb_title {
+  line-height: 26px;
+  font-size: 15px;
+  font-family: Georgia, serif;
+  font-weight: lighter;
+}
+
+#myfdb_profiles_plugin h3 span.myfdb_title a {
+  font-family: Georgia, serif;
+  line-height: 26px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+#myfdb_profiles_plugin h4 {
+  color: #e6e6e6;
+  line-height: 18px;
+  clear: both;
+  margin: 5px 0 5px;
+}
+
+#myfdb_profiles_plugin a.myfdb_credit_count {
+  background: #2f2f2f;
+  display: block;
+  float: left;
+  clear: left;
+  margin: 10px 0 10px;
+  padding: 6px 12px;
+  width: 95px;
+  text-align: center;
+}
+
+#myfdb_profiles_plugin a.myfdb_credit_count:hover {
+  background: #FF0097;
+  color: #000;
+  cursor: pointer;
+}
+
+#myfdb_profiles_plugin a.myfdb_profile_link {
+  background: #2f2f2f;
+  display: block;
+  float: right;
+  margin: 10px 0 0;
+  padding: 6px 12px;
+  width: 95px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#myfdb_profiles_plugin a.myfdb_profile_link:hover {
+  background: #FF0097;
+  color: #000;
+  cursor: pointer;
+}
+
+#myfdb_profiles_plugin ul.myfdb_recent_credits {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#myfdb_profiles_plugin ul.myfdb_recent_credits li {
+  display: inline-block;
+  margin: 6px 0 0;
+  width: 100%;
+}
+
+#myfdb_profiles_plugin ul.myfdb_recent_credits li img {
+  width: 60px;
+  margin: 0 8px 0 0;
+  vertical-align: top;
+}
+
+#myfdb_profiles_plugin ul.myfdb_recent_credits li a {
+  line-height: 20px;
+  font-size: 10px;
+}
+
+#myfdb_profiles_plugin p {
+  color: #999;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#myfdb_profiles_plugin p a {
+  color: #FF0080;
+}
+
+#myfdb_profiles_plugin p a:hover {
+  text-decoration: underline;
+  color: #FF0097;
+}
+
+#myfdb_profiles_plugin img.myfdb_widget_logo {
+  height: 50px;
+  width: 150px;
+  border: 0px;
+}
