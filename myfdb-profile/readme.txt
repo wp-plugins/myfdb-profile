@@ -13,9 +13,9 @@ This plugin provides detailed information about fashion models, companies, and b
 
 This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database).
 
-The data presented by the plugin is displayed on individual posts or on pages .  It also be implemented as a widget (which will appear on your site based on your theme).  The MyFDB profile widget can be dragged and dropped into any widget container.
+The data presented by the plugin is displayed on individual posts or on pages.  It also be implemented as a widget (which will appear on your site based on your theme).  The MyFDB profile widget can be dragged and dropped into any widget container.
 
-The plugin includes ttwo pre-defined styles (presentation templates, but you can also create your own custom styles. 
+The plugin includes two pre-defined styles (presentation templates, but you can also create your own custom styles. 
 
 == Installation ==
 
@@ -31,12 +31,12 @@ Please refer to the plugin home page at http://blog.myfdb.com/myfdb-plugin/
 == Screenshots ==
 
 1. **Settings** - The following settings can be modified:  
-*Cache refresh time (in hours)* – Data requested from the MyFDB database is stored on your host server until it expires.  This greatly reduces page load times.  You can adjust the cache refresh time in the MyFDB plugin settings.  
-*MyFDB profile output methods* – Controls the positioning of the content on single posts and pages – The default setting automatically adds the widget to the bottom of the post or page. However, this can be disabled and you can control the position by manually adding it to your templates.  This is done by adding the  following in the desired position within the template where “$post” is the post object (current post/page) and “$class” is CSS class for design of div element: *wp_myfdb_post_profiles ($post, $class)*   
-*Enable MyFDB plugin for pages* – This setting is only relevant if you are automatically adding the MyFDB widget (see above).  It allows you disable the widget on pages.  
-*Enable MyFDB plugin for posts* – This setting is only relevant if you are automatically adding the MyFDB widget (see above).  It allows you disbale the widget on posts.  
-*Defualt template for page* – This setting controls the default template for the page.  If you have not specified a custom template you are limited to the myfdb_long or myfdb_short formats.  
-*Defualt template for post* – This setting controls the default template for the single post.  If you have not specified a custom template you are limited to the myfdb_long or myfdb_short formats.  You can also create your own custom styles.  Custom CSS must be placed in a folder named *myfdb-profile* within your theme (/wp-content/themes/<your theme>/myfdb-profile).  To build your own style sheet you can start by copying the contents of */wp-content/plugins/myfdb-profile/css/myfdb_style.css*.  
+   **Cache refresh time (in hours)** Data requested from the MyFDB database is stored on your host server until it expires.  This greatly reduces page load times.  You can adjust the cache refresh time in the MyFDB plugin settings.  
+   **MyFDB profile output methods** Controls the positioning of the content on single posts and pages – The default setting automatically adds the widget to the bottom of the post or page. However, this can be disabled and you can control the position by manually adding it to your templates.  This is done by adding the  following in the desired position within the template where “$post” is the post object (current post/page) and “$class” is CSS class for design of div element: *wp_myfdb_post_profiles ($post, $class)*   
+   **Enable MyFDB plugin for pages** This setting is only relevant if you are automatically adding the MyFDB widget (see above).  It allows you disable the widget on pages.  
+   **Enable MyFDB plugin for posts** This setting is only relevant if you are automatically adding the MyFDB widget (see above).  It allows you disbale the widget on posts.  
+   **Default template for page** This setting controls the default template for the page.  If you have not specified a custom template you are limited to the myfdb_long or myfdb_short formats.  
+   **Default template for post** This setting controls the default template for the single post.  If you have not specified a custom template you are limited to the myfdb_long or myfdb_short formats.  You can also create your own custom styles.  Custom CSS must be placed in a folder named *myfdb-profile* within your theme (/wp-content/themes/<your theme>/myfdb-profile).  To build your own style sheet you can start by copying the contents of */wp-content/plugins/myfdb-profile/css/myfdb_style.css*.  
 
 2. **Full format Presentation** (template: myfdb_full) includes profile name, number of credits, and link to MyFDB profile 
 
@@ -51,12 +51,12 @@ Please refer to the plugin home page at http://blog.myfdb.com/myfdb-plugin/ for 
 
 == Changelog ==
 
-= 1.0 =
+= 2.9 =
 This is the initial build that was released to the WordPress community
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 2.9 =
 This is the initial build that was released to the WordPress community
 
 == Advanced ==
