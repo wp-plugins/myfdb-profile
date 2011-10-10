@@ -30,17 +30,18 @@ Please refer to the plugin home page at http://blog.myfdb.com/myfdb-plugin/
 
 == Screenshots ==
 
-1. **Full format Presentation** (template: myfdb_full) includes profile name, number of credits, and link to MyFDB profile 
-
-2. **Short format presentation** (template: myfdb_short) includes only profile name, number of credits, link to MyFDB profile, and three recent credits with images and titles (see example below)
-
-3. **Settings** - The following settings can be modified:  
+1. **Settings** - The following settings can be modified:  
 *Cache refresh time (in hours)* – Data requested from the MyFDB database is stored on your host server until it expires.  This greatly reduces page load times.  You can adjust the cache refresh time in the MyFDB plugin settings.  
 *MyFDB profile output methods* – Controls the positioning of the content on single posts and pages – The default setting automatically adds the widget to the bottom of the post or page. However, this can be disabled and you can control the position by manually adding it to your templates.  This is done by adding the  following in the desired position within the template where “$post” is the post object (current post/page) and “$class” is CSS class for design of div element: *wp_myfdb_post_profiles ($post, $class)*   
 *Enable MyFDB plugin for pages* – This setting is only relevant if you are automatically adding the MyFDB widget (see above).  It allows you disable the widget on pages.  
 *Enable MyFDB plugin for posts* – This setting is only relevant if you are automatically adding the MyFDB widget (see above).  It allows you disbale the widget on posts.  
 *Defualt template for page* – This setting controls the default template for the page.  If you have not specified a custom template you are limited to the myfdb_long or myfdb_short formats.  
 *Defualt template for post* – This setting controls the default template for the single post.  If you have not specified a custom template you are limited to the myfdb_long or myfdb_short formats.  You can also create your own custom styles.  Custom CSS must be placed in a folder named *myfdb-profile* within your theme (/wp-content/themes/<your theme>/myfdb-profile).  To build your own style sheet you can start by copying the contents of */wp-content/plugins/myfdb-profile/css/myfdb_style.css*.  
+
+2. **Full format Presentation** (template: myfdb_full) includes profile name, number of credits, and link to MyFDB profile 
+
+3. **Short format presentation** (template: myfdb_short) includes only profile name, number of credits, link to MyFDB profile, and three recent credits with images and titles (see example below)
+
 
 4. **Editing Pages and Posts** - To add a profile to a page post scroll down on the editor page and locate the MyFDB Profiles section.  If the plugin has been enabled and this section does not appear, you must edit your Screen Options.  Use the dropdown box to select either a person or a company and start typing in the name.  If you pause during typing, a list of suggestions will appear and you can select from that list.  Click the “Add” button to add the profile.  Repeat the process to select additional profiles.  You can also specify a different template (see Style/Templates above) to alter the presentation just for that post or page.
 
