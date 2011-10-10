@@ -1,8 +1,9 @@
 <?php
 /**
  * Plugin Name: MyFDB Profile
- * Description: Insert MyFDB fashion profile information into posts.
- * Author: Anton Ruchkin from Sound Strategies
+ * Plugin URI: http://blog.myfdb.com/myfdb-plugin/
+ * Description: This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database)
+ * Author: Anton Ruchkin at Sound Strategies
  * Version: 2.9
  * Author URI: http://www.soundst.com/
  */
