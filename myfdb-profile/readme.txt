@@ -1,36 +1,66 @@
-//-------------------------------------------------------------------------//
-// Plugin: MyFDB Profile                                                   //
-// Description: Insert MyFDB fashion profile information into posts        //
-// Author: Anton Ruchkin from Sound Strategies                             //
-// Version: 2.9                                                            //
-// Author URI: http://www.soundst.com/                                     //
-//-------------------------------------------------------------------------//
+=== MyFDB Profiles ===
+Contributors: SoundStrategies
+Donate link: None
+Tags: myfdb, fashion
+Requires at least: 2.0.2
+Tested up to: 3.2
+Stable tag: /trunk/
 
-Plugin installation:
-	1 Unpack myfdb-profile_2.9.zip the file to the /wp-content/plugins/ folder.
-	2 Activate the plugin through the 'Plugins' menu in WordPress.
+This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database).
 
-Plugin can:
-	Cache profiles in WP DB (for fast load), for editing cache settings, use admin panel "Settings" -> "MyFDB Profiles" (settings page).
-	Enabling plugin for page/post (see in "MyFDB Profiles" settings page).
-	Use different MyFDB profile template separate for every post/page.
-	Output widget(s) (with MyFDB profile) through sidebar.
 
-How to use:
-	Plugin add's metabox "MyFDB Profiles" on page/post edit page.
-	In that metabox you can enter profile name or ID (for people profile - added name searching), also you can add new or remove old MyFDB profile. And besides all - select overall template for profiles.
-	For entering ID profile. need to enter it and wait until search try to find profile with ID name (for make shure that MyFDB don't have profile name with digital name like entered ID),search show: "No profiles were found" if in MyFDB no such profile, after that just press enter for confirm entering. At current moment MyFDB don't have search for company profiles, so for that profiles need enter ID or tag name.
-	Here is example: For "Jed Root Inc." need enter "687" or "687-jed-root-inc".
+== Description ==
 
-	To output profiles on page/post need to use php function: wp_myfdb_post_profiles ($post, $class) - in WP theme
-		$post - the post object;
-		$class - CSS clas of output <div>.
-		
-	Plugin can use different template, select needable template on post/page edit page, or (if nothing was selected) plugin used default template (set up this template on "MyFDB Profiles" settings page).
-	Now plugin have two template: "myfdb_full" and "myfdb_short". Name of the template it's a name of file in "wp-content/plugins/myfdb-profile/template/" folder, so you can edit current, or add new template;
-	Also plugin have CSS for profile displaying, it's located at "wp-content/plugins/myfdb-profile/css/myfdb_style.css" file.
+This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database).
 
-P.S. Plugin have two extra functions:
-	1. Short code function: [myfdbprofile category="ProfileCategory" tagname="ProfileTagName" [template="template"]] - it can help to output profile in post/page text.
-	2. PHP function for output profile(s) not(or is) assigned to any post: myfdb_profile_lists(myfdb_profile_lists(array(array('cat'=>'p', 'tag'=>'some_tag_name'), array('cat'=>'c', 'tag'=>'some_tag_name'))), template).
-		Profiles array consist of mini arrays that have 'cat' (category) and 'tag' (profile tag name) parameters.
+The data presented by the plugin is displayed on individual posts or on pages .  It also be implemented as a widget (which will appear on your site based on your theme).  The MyFDB profile widget can be dragged and dropped into any widget container.
+
+The plugin includes ttwo pre-defined styles (presentation templates, but you can also create your own custom styles. 
+
+== Installation ==
+
+1. Upload the myfdb-profile folder to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Adjust the plugin settings 
+4. Please refer to the plugin home page at http://blog.myfdb.com/myfdb-plugin/ for detailed instructions
+
+== Frequently Asked Questions ==
+
+Please refer to the plugin home page at http://blog.myfdb.com/myfdb-plugin/
+
+== Screenshots ==
+
+1. **Full format Presentation** (template: myfdb_full) includes profile name, number of credits, and link to MyFDB profile 
+
+2. **Short format presentation** (template: myfdb_short) includes only profile name, number of credits, link to MyFDB profile, and three recent credits with images and titles (see example below)
+
+3. **Settings** - The following settings can be modified:  
+*Cache refresh time (in hours)* – Data requested from the MyFDB database is stored on your host server until it expires.  This greatly reduces page load times.  You can adjust the cache refresh time in the MyFDB plugin settings.  
+*MyFDB profile output methods* – Controls the positioning of the content on single posts and pages – The default setting automatically adds the widget to the bottom of the post or page. However, this can be disabled and you can control the position by manually adding it to your templates.  This is done by adding the  following in the desired position within the template where “$post” is the post object (current post/page) and “$class” is CSS class for design of div element: *wp_myfdb_post_profiles ($post, $class)*   
+*Enable MyFDB plugin for pages* – This setting is only relevant if you are automatically adding the MyFDB widget (see above).  It allows you disable the widget on pages.  
+*Enable MyFDB plugin for posts* – This setting is only relevant if you are automatically adding the MyFDB widget (see above).  It allows you disbale the widget on posts.  
+*Defualt template for page* – This setting controls the default template for the page.  If you have not specified a custom template you are limited to the myfdb_long or myfdb_short formats.  
+*Defualt template for post* – This setting controls the default template for the single post.  If you have not specified a custom template you are limited to the myfdb_long or myfdb_short formats.  You can also create your own custom styles.  Custom CSS must be placed in a folder named *myfdb-profile* within your theme (/wp-content/themes/<your theme>/myfdb-profile).  To build your own style sheet you can start by copying the contents of */wp-content/plugins/myfdb-profile/css/myfdb_style.css*.  
+
+4. **Editing Pages and Posts** - To add a profile to a page post scroll down on the editor page and locate the MyFDB Profiles section.  If the plugin has been enabled and this section does not appear, you must edit your Screen Options.  Use the dropdown box to select either a person or a company and start typing in the name.  If you pause during typing, a list of suggestions will appear and you can select from that list.  Click the “Add” button to add the profile.  Repeat the process to select additional profiles.  You can also specify a different template (see Style/Templates above) to alter the presentation just for that post or page.
+
+5. **Widget** -  The MyFDB profile can also be implemented as a widget (which will appear on your site based on your theme).  The MyFDB profile widget can be dragged and dropped into any widget container.  
+
+Please refer to the plugin home page at http://blog.myfdb.com/myfdb-plugin/ for more detailed instructions
+
+== Changelog ==
+
+= 1.0 =
+This is the initial build that was released to the WordPress community
+
+== Upgrade Notice ==
+
+= 1.0 =
+This is the initial build that was released to the WordPress community
+
+== Advanced ==
+
+This Plugin has two additional functions:  
+
+1. Short code function: [myfdbprofile category="ProfileCategory" tagname="ProfileTagName" [template="template"]] - can be used to output the profile in post/page text.  
+2. PHP function for output a profile(s) assigned to any post: myfdb_profile_lists(myfdb_profile_lists(array(array('cat'=>'p', 'tag'=>'some_tag_name'), array('cat'=>'c', 'tag'=>'some_tag_name'))), template).  The profiles array consists of mini arrays that have 'cat' (category) and 'tag' (profile tag name) parameters.
