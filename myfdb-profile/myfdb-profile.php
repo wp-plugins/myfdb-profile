@@ -299,7 +299,7 @@ function myfdb_meta_edit() {
 					<select onchange="myfdb_search(\'myfdb_meta-profiles-'.$key.'-\')" id="myfdb_meta-profiles-'.$key.'-category"
 					name="myfdb_meta[profiles]['.$key.'][category]">
 					<option value="people" '.($val['category']=='people'?'selected':'').'>people</option>
-					<option value="companies" '.($val['category']=='companies'?'selected':'').'>companies</option>
+					<option value="companies" '.($val['category']=='companies'?'selected':'').'>company</option>
 					</select><br />
 					<label for="myfdb_meta-profiles-'.$key.'-tag_name">Name:</label>
 					<div id="myfdb_meta-profiles-'.$key.'-tag_name" style="width: 232px;position: relative; z-index: 0; height: 28px;">
