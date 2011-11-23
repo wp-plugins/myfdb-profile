@@ -11,7 +11,7 @@ This plugin provides detailed information about fashion models, companies, and b
 
 == Description ==
 
-This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database).
+This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database)
 
 The data presented by the plugin is displayed on individual posts or on pages.  It also be implemented as a widget (which will appear on your site based on your theme).  The MyFDB profile widget can be dragged and dropped into any widget container.
 
