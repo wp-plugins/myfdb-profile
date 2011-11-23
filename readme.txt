@@ -6,7 +6,7 @@ Requires at least: 2.0.2
 Tested up to: 3.2
 Stable tag: 3.0.0
 
-This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database).
+This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database)
 
 
 == Description ==
