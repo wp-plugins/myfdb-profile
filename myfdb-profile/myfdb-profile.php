@@ -4,7 +4,7 @@
  * Plugin URI: http://blog.myfdb.com/myfdb-plugin/
  * Description: This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database)
  * Author: Anton Ruchkin at Sound Strategies
- * Version: 2.9
+ * Version: 3.0.0
  * Author URI: http://www.soundst.com/
  */
 
