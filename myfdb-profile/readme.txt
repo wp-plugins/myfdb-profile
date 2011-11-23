@@ -56,8 +56,10 @@ This is the initial build that was released to the WordPress community
 
 == Upgrade Notice ==
 
-= 2.9 =
-This is the initial build that was released to the WordPress community
+= 3.0 =
+This version includes two additional display formats which are myfdb_plus_short and myfdb_plus_full
+
+
 
 == Advanced ==
 
