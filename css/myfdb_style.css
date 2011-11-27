@@ -1,0 +1,402 @@
+a{
+outline: none 0;
+}
+
+a img{
+	border: medium none;
+	padding: 0 !important;
+}
+
+div.myfdb_profiles_space {
+  display: inline-block;
+  width: 100%;
+}
+
+#myfdb_profiles_plugin {
+  background: #000;
+  float: left;
+  margin-top: 12px;
+  max-width: 524px;
+  margin-bottom: 10px;
+    line-height: 24px;
+}
+
+#myfdb_profiles_plugin a,
+#myfdb_profiles_plugin div,
+#myfdb_profiles_plugin h3,
+#myfdb_profiles_plugin h4,
+#myfdb_profiles_plugin span,
+#myfdb_profiles_plugin li,
+#myfdb_profiles_plugin p{
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div.myfdb_profiles_space {
+  display: inline-block;
+  width: 100%;
+}
+
+#myfdb_profiles_plugin div.myfdb_main_info {
+  padding: 0 5px 10px 5px;
+}
+
+#myfdb_profiles_plugin ul.myfdb_profiles {
+  display: block;
+  clear: both;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#myfdb_profiles_plugin ul.myfdb_profiles li {
+  width: 252px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+#myfdb_profiles_plugin ul.myfdb_profiles li.myfdb_widget_separated {
+  margin: 0 20px 0 0;
+}
+
+#myfdb_profiles_plugin a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#myfdb_profiles_plugin a:hover {
+  color: #FF0097;
+}
+
+#myfdb_profiles_plugin h3 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  font-weight: normal;
+  background: #2f2f2f;
+  line-height: 26px;
+  font-size: 15px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#myfdb_profiles_plugin h3 a {
+  font-family: Helvetica,Arial,sans-serif;
+  line-height: 26px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#myfdb_profiles_plugin h3 span.myfdb_title {
+  line-height: 26px;
+  font-size: 15px;
+  font-family: Georgia, serif;
+  font-weight: lighter;
+}
+
+#myfdb_profiles_plugin h3 span.myfdb_title a {
+  font-family: Georgia, serif;
+  line-height: 26px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+#myfdb_profiles_plugin h4 {
+  color: #e6e6e6;
+  line-height: 18px;
+  clear: both;
+  margin: 5px 0 5px;
+}
+
+#myfdb_profiles_plugin a.myfdb_credit_count {
+  background: #2f2f2f;
+  display: block;
+  float: left;
+  clear: left;
+  margin: 10px 0 10px;
+  padding: 6px 12px;
+  width: 95px;
+  text-align: center;
+}
+
+#myfdb_profiles_plugin a.myfdb_credit_count:hover {
+  background: #FF0097;
+  color: #000;
+  cursor: pointer;
+}
+
+#myfdb_profiles_plugin a.myfdb_profile_link {
+  background: #2f2f2f;
+  display: block;
+  float: right;
+  margin: 10px 0 0;
+  padding: 6px 12px;
+  width: 95px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#myfdb_profiles_plugin a.myfdb_profile_link:hover {
+  background: #FF0097;
+  color: #000;
+  cursor: pointer;
+}
+
+#myfdb_profiles_plugin ul.myfdb_recent_credits {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#myfdb_profiles_plugin ul.myfdb_recent_credits li {
+  display: inline-block;
+  margin: 6px 0 0;
+  width: 100%;
+}
+
+#myfdb_profiles_plugin ul.myfdb_recent_credits li img {
+  width: 60px;
+  margin: 0 8px 0 0;
+  vertical-align: top;
+}
+
+#myfdb_profiles_plugin ul.myfdb_recent_credits li a {
+  line-height: 20px;
+  font-size: 10px;
+}
+
+#myfdb_profiles_plugin p {
+  color: #999;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#myfdb_profiles_plugin p a {
+  color: #FF0080;
+}
+
+#myfdb_profiles_plugin p a:hover {
+  text-decoration: underline;
+  color: #FF0097;
+}
+
+#myfdb_profiles_plugin img.myfdb_widget_logo {
+  height: 50px;
+  width: 150px;
+  border: 0px;
+}
+
+/* FULL PLUS */
+
+.login-full-plus{
+	background-color: #000;
+    display: block;
+    height: 30px;
+    padding-bottom: 8px;
+}
+
+.login-full-plus a{
+    display: block;
+    margin-right: 9px;
+    margin-top: 9px;
+    text-align: right;
+}
+
+#myfdb_profiles_plugin .title-full-plus{
+    background-color: #FFF;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 2px 0 0 7px;
+    text-align: left;
+}
+
+#myfdb_profiles_plugin .title-full-plus a{
+	color: #000;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 1px solid #000;
+    display: block;
+    margin-bottom: 2px;
+    padding-bottom: 1px;
+    width: 235px;
+}
+
+.full-plus-info{
+	background-color: #fff;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.credits-fullplus{
+    background-color: #FFFFFF;
+    max-width: 524px;
+    padding-left: 7px;
+}
+
+#myfdb_profiles_plugin .credits-fullplus a{
+	width: 100%;
+	color: #969696;
+	background-color: #fff;
+	font-size: 15px;
+	font-family: Arial, sans-serif !important;
+	font-weight: bold;
+}
+
+#myfdb_profiles_plugin .pfull-rcredits{
+    clear: both;
+    color: #E6E6E6;
+    line-height: 18px;
+    margin: 4px 7px 0;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-top: 2px;
+    background-color: #000;
+    font-family: Arial, sans-serif !important;
+}
+
+.full-plus-bg{
+    background-image: url("/wp-content/plugins/myfdb-profile/img/black-arrow02.png");
+    background-position: 13px 21px;
+    background-repeat: no-repeat;
+    height: 31px;
+}
+
+#myfdb_profiles_plugin ul.main-full-plus{
+    list-style: none outside none;
+    margin: 3px 7px 0;
+    padding: 0;
+}
+
+#myfdb_profiles_plugin ul.main-full-plus li{
+    display: inline-block;
+    margin: 6px 0 0;
+    width: 100%;
+} 
+
+#myfdb_profiles_plugin ul.main-full-plus li {
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    margin: 0 0 7px;
+    padding-bottom: 7px;
+    vertical-align: top;
+    width: 238px;
+}
+
+#myfdb_profiles_plugin ul.main-full-plus li a {
+    font-size: 10px;
+    line-height: 20px;
+    color: #000;
+}
+
+#myfdb_profiles_plugin ul.main-full-plus li img {
+    margin: 0 8px 0 0;
+    vertical-align: top;
+    width: 60px;
+}
+
+.read-more-fullplus{
+    background-image: url("/wp-content/plugins/myfdb-profile/img/white-arrow.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 18px;
+    width: 18px;
+    float: right;
+}
+
+#myfdb_profiles_plugin .fplus-profile-link{
+    background-image: url("/wp-content/plugins/myfdb-profile/img/pink-arrow.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+    font-family: Arial,sans-serif !important;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 7px;
+    padding: 9px 10px;
+    white-space: nowrap;
+    width: 125px;
+}
+
+.about-fplus{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#myfdb_profiles_plugin .title-about-fplus{
+	color: #000;
+}
+
+#myfdb_profiles_plugin .content-about-fplus{
+	color: #000;
+    margin-top: 7px;
+}
+
+/* PLUS SHORT */
+
+.short-plus-main{
+    background-color: #FFFFFF;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    margin: 0;
+    padding: 0;
+}
+
+#myfdb_profiles_plugin .title-shortplus{
+    background-color: #FFFFFF;
+    padding: 2px 0 0 7px;
+    text-align: left;
+    border: 0 none;
+}
+
+#myfdb_profiles_plugin .title-shortplus a{
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    display: block;
+    font-family: Arial, sans-serif !important;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    width: 235px;
+}
+
+.short-info{
+border: 0 none;
+}
+
+#myfdb_profiles_plugin .short-plus-link{
+margin-top: 10px;
+}
+
+#myfdb_profiles_plugin .text-fpluss, .title-fpluss{
+font-size: 11px !important;
+line-height: 14px !important;
+font-family: Arial, sans-serif !important;
+font-weight: bold;
+}
+
+#myfdb_profiles_plugin .text-fpluss{
+color: #969696 !important;	
+}
+
+#myfdb_profiles_plugin .title-fpluss{
+color: #000;
+}
+
+
+#myfdb_profiles_plugin .lastborder{
+border: 0 none !important;
+}
+
+.blockr-fullpluss{
+line-height: 16px;
+}
