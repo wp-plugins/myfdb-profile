@@ -18,7 +18,7 @@ function MyFDB_Profile_Add_Stylesheet() {
 		$StyleUrl = WP_PLUGIN_URL.'/myfdb-profile/css/myfdb_style.css';
 		$StyleFile = WP_PLUGIN_DIR.'/myfdb-profile/css/myfdb_style.css';
 		if ( file_exists($StyleFile) ) {
-			wp_register_style('MyFDB_StyleSheets', $StyleUrl);
+			wp_register_style('MyFDB_StyleSheets', $StyleUrl,array(),'0.003');
 			wp_enqueue_style( 'MyFDB_StyleSheets');
 		}
 	}

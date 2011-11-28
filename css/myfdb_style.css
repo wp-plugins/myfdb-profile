@@ -13,7 +13,7 @@ div.myfdb_profiles_space {
 }
 
 #myfdb_profiles_plugin {
-  background: #000;
+  background: #000000;
   float: left;
   margin-top: 12px;
   max-width: 524px;
@@ -197,10 +197,9 @@ div.myfdb_profiles_space {
 /* FULL PLUS */
 
 .login-full-plus{
-	background-color: #000;
+    background-color: #000;
     display: block;
-    height: 30px;
-    padding-bottom: 8px;
+    height: 38px;
 }
 
 .login-full-plus a{
@@ -208,6 +207,11 @@ div.myfdb_profiles_space {
     margin-right: 9px;
     margin-top: 9px;
     text-align: right;
+}
+
+.login-full-plus img{
+    background-color: transparent !important;
+    border: 0 none !important;
 }
 
 #myfdb_profiles_plugin .title-full-plus{
@@ -400,3 +404,4 @@ border: 0 none !important;
 .blockr-fullpluss{
 line-height: 16px;
 }
+

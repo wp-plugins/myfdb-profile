@@ -4,7 +4,7 @@ Donate link: None
 Tags: myfdb, fashion
 Requires at least: 2.0.2
 Tested up to: 3.2
-Stable tag: 3.0.0
+Stable tag: /trunk/
 
 This plugin provides detailed information about fashion models, companies, and brands from MyFDB (My Fashion Database).
 
@@ -56,10 +56,8 @@ This is the initial build that was released to the WordPress community
 
 == Upgrade Notice ==
 
-= 3.0 =
-This version includes two additional display formats which are myfdb_plus_short and myfdb_plus_full
-
-
+= 2.9 =
+This is the initial build that was released to the WordPress community
 
 == Advanced ==
 
